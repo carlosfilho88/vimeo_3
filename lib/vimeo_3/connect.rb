@@ -102,7 +102,7 @@ class Connect
     uri.scheme = uri_params[:scheme]
 
 
-    req = Net::HTTP::Post.new(uri)
+    req = Net::HTTP::Get.new(uri)
 
 
     #req.headers(headers)
