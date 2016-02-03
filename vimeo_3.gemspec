@@ -9,5 +9,5 @@ Gem::Specification.new do |s|
   s.files                     = ["lib/vimeo_3.rb", "lib/vimeo_3/connect.rb"]
   s.homepage                  = 'https://github.com/frnco/vimeo_3'
   s.license                   = 'MIT'
-  s.required_ruby_version     = '~> 2.1.0'
+  s.required_ruby_version     = '>= 2.1.0'
   end
